@@ -28,8 +28,9 @@ export class LoginService {
         if (newUsers) {
           this.amILogin = true;
           alert('Usuario logueado correctamente');
+        } else {
+          alert('Usuario incorrecto');
         }
-        alert('Usuario incorrecto');
       });
   }
 }

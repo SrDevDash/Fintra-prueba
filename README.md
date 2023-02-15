@@ -23,14 +23,22 @@ Tambien puedes hacerlo utilizando creando un servicio
 
 4. ¿Qué son los formularios de plantilla y reactivos?
 
- En Angular, existen dos formas de trabajar con formularios:
-
 Formularios de plantilla: se definen en la plantilla HTML y utilizan el databinding para interactuar con los datos del formulario.
 
 Formularios reactivos: se definen en el componente utilizando un modelo de datos y se actualizan utilizando programación.
 
-5. ¿Cuál es el propósito de una tubería asíncrona?
+1. ¿Cuál es el propósito de una tubería asíncrona?
+
+  Las tuberías asíncronas se utilizan para trabajar con datos asincrónicos en Angular, como por ejemplo las peticiones HTTP. El propósito de una tubería asíncrona es transformar los datos antes de ser renderizados en la plantilla, permitiendo mostrar datos en diferentes formatos, como fechas, monedas, entre otros.
+
 6. ¿Qué es ngOnInit? ¿Cómo se define?
+
+  ngOnInit es un método del ciclo de vida de un componente en Angular que se ejecuta después de que se hayan inicializado todas las propiedades vinculadas y que se haya resuelto el cambio de datos iniciales en un componente. Se utiliza para realizar cualquier inicialización necesaria del componente, como suscribirse a un servicio o recuperar datos iniciales.
+
 7. ¿Cuál es el propósito de FormBuilder?
   
+  `ngOnInit` es un método del ciclo de vida de un componente en Angular que se ejecuta después de que se hayan inicializado todas las propiedades vinculadas y que se haya resuelto el cambio de datos iniciales en un componente. Se utiliza para realizar cualquier inicialización necesaria del componente, como suscribirse a un servicio o recuperar datos iniciales.
+
 8. Enumere cuales son los pasos para actualizar de la versión 13 a la actual
+
+  Solo es necesario ejecutar el siguiente comando en Angular CLI :  `ng update @angular`

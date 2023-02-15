@@ -1,1 +1,114 @@
-<p>matriz works!</p>
+<app-navbar></app-navbar>
+<div class="w-full flex justify-center items-center mt-24 h-auto">
+  <div
+    class="mx-8 p-12 relative gap-4 flex justify-center items-center flex-col h-96 w-4/12 shadow-xl rounded-lg flex-wrap"
+  >
+    <h1 class="absolute font-sans font-bold text-2xl top-0">Matriz</h1>
+    <div class="w-4/12 flex justify-center items-center flex-col">
+      <input
+        [(ngModel)]="matriz[0]"
+        class="h-24 w-24 bg-gray-100 mx-4"
+        type="number"
+      />
+      <input
+        [(ngModel)]="matriz[2]"
+        class="h-24 w-24 bg-gray-100 my-4"
+        type="number"
+      />
+      <button
+        (click)="mult()"
+        class="mt-10 bg-blue-500 p-2 rounded-lg font-mono text-white hover:bg-slate-600"
+      >
+        Multiplicar
+      </button>
+    </div>
+    <div class="w-4/12 flex justify-center items-center flex-col">
+      <input
+        [(ngModel)]="matriz[1]"
+        class="h-24 w-24 bg-gray-100 mx-4"
+        type="number"
+      />
+      <input
+        [(ngModel)]="matriz[3]"
+        class="h-24 w-24 bg-gray-100 my-4"
+        type="number"
+      />
+      <button
+        (click)="sumar()"
+        class="mt-10 bg-blue-500 p-2 rounded-lg font-mono text-white hover:bg-slate-600"
+      >
+        Sumar
+      </button>
+    </div>
+  </div>
+  <div
+    class="p-12 relative gap-4 flex justify-center items-center flex-col h-96 w-4/12 shadow-xl rounded-lg flex-wrap"
+  >
+    <h1 class="absolute font-sans font-bold text-2xl top-0">Matriz</h1>
+    <div class="w-4/12 flex justify-center items-center flex-col">
+      <input
+        [(ngModel)]="matriz[4]"
+        class="h-24 w-24 bg-gray-100 mx-4"
+        type="number"
+      />
+      <input
+        [(ngModel)]="matriz[6]"
+        class="h-24 w-24 bg-gray-100 my-4"
+        type="number"
+      />
+      <button
+        (click)="mult()"
+        class="mt-10 bg-blue-500 p-2 rounded-lg font-mono text-white hover:bg-slate-600"
+      >
+        Multiplicar
+      </button>
+    </div>
+    <div class="w-4/12 flex justify-center items-center flex-col">
+      <input
+        [(ngModel)]="matriz[5]"
+        class="h-24 w-24 bg-gray-100 mx-4"
+        type="number"
+      />
+      <input
+        [(ngModel)]="matriz[7]"
+        class="h-24 w-24 bg-gray-100 my-4"
+        type="number"
+      />
+      <button
+        (click)="sumar()"
+        class="mt-10 bg-blue-500 p-2 rounded-lg font-mono text-white hover:bg-slate-600"
+      >
+        Sumar
+      </button>
+    </div>
+  </div>
+  <div
+    class="mx-8 p-12 relative gap-4 flex justify-center items-center flex-col h-96 w-4/12 shadow-xl rounded-lg flex-wrap"
+  >
+    <h1 class="absolute font-sans font-bold text-2xl top-0">Result</h1>
+    <div class="w-4/12 flex justify-center items-center flex-col">
+      <input
+        [(ngModel)]="result[0]"
+        class="h-24 w-24 bg-gray-100 mx-4"
+        type="number"
+      />
+      <input
+        [(ngModel)]="result[2]"
+        class="h-24 w-24 bg-gray-100 my-4"
+        type="number"
+      />
+    </div>
+    <div class="w-4/12 flex justify-center items-center flex-col">
+      <input
+        [(ngModel)]="result[1]"
+        class="h-24 w-24 bg-gray-100 mx-4"
+        type="number"
+      />
+      <input
+        [(ngModel)]="result[3]"
+        class="h-24 w-24 bg-gray-100 my-4"
+        type="number"
+      />
+    </div>
+  </div>
+</div>

@@ -1,1 +1,28 @@
-<app-friend-numbers></app-friend-numbers>
+<app-navbar></app-navbar>
+<div class="w-full flex justify-center items-center mt-24 h-auto">
+  <div
+    class="mx-8 p-12 relative gap-4 flex justify-center items-center flex-col h-96 w-4/12 shadow-xl rounded-lg flex-wrap"
+  >
+    <h1 class="font-mono font-bold text-xl text-blue-600 mb-6">
+      Numeros amigos
+    </h1>
+    <input
+      [(ngModel)]="num1"
+      class="bg-gray-300 rounded-sm w-64 px-2 h-10 font-sans font-semibold"
+      type="text"
+      placeholder="Inicial number"
+    />
+    <input
+      [(ngModel)]="num2"
+      class="bg-gray-300 rounded-sm w-64 px-2 h-10 font-sans font-semibold"
+      type="text"
+      placeholder="Final number"
+    />
+    <button
+      (click)="evaluar()"
+      class="mt-10 bg-blue-500 p-2 rounded-lg font-mono text-white hover:bg-slate-600"
+    >
+      Enter
+    </button>
+  </div>
+</div>

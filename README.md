@@ -42,3 +42,26 @@ Formularios reactivos: se definen en el componente utilizando un modelo de datos
 8. Enumere cuales son los pasos para actualizar de la versión 13 a la actual
 
   Solo es necesario ejecutar el siguiente comando en Angular CLI :  `ng update @angular`
+
+# APP
+
+Clonar el repositorio `git clone https://github.com/SrDevDash/Fintra-prueba.git`
+
+Instalar los modulos con `npm i`
+
+Levantar servidor `ng serve -o`
+
+### Dentro de la app
+
+Puedes navegar dentro de la aplicacion mediante el navbar
+
+
+## Login
+
+Las crenciales son: 
+
+`{ email: test@gmail.com,
+  password: 123456
+}`
+
+no es necesario loguearse para cambiar de proyecto

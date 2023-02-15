@@ -10,6 +10,8 @@ const routes: Routes = [
   { path: 'calculator', component: CalculatorComponent },
   { path: 'numerosAmigos', component: FriendNumbersComponent },
   { path: 'matriz', component: MatrizComponent },
+  { path: '**', redirectTo: '/login' },
+  { path: '*', redirectTo: '/login' },
 ];
 
 @NgModule({

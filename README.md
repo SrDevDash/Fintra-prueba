@@ -19,7 +19,7 @@ Tambien puedes hacerlo utilizando creando un servicio
 
 3. ¿Qué es la carga ansiosa y perezosa?
    
-  En Angular, los decoradores son funciones que se utilizan para modificar la funcionalidad de una clase, propiedad, método o parámetro. Los decoradores se identifican con un signo `@` y se utilizan para definir metadata sobre la clase, como la plantilla asociada a ella, la inyección de dependencias, la visibilidad, entre otros.
+  La carga ansiosa es cuando un modulo de angular se carga al primer momento de ejecución, pero la perezosa se carga solo cuando se carga la ruta especifica
 
 4. ¿Qué son los formularios de plantilla y reactivos?
 
@@ -37,7 +37,7 @@ Formularios reactivos: se definen en el componente utilizando un modelo de datos
 
 7. ¿Cuál es el propósito de FormBuilder?
   
-  `ngOnInit` es un método del ciclo de vida de un componente en Angular que se ejecuta después de que se hayan inicializado todas las propiedades vinculadas y que se haya resuelto el cambio de datos iniciales en un componente. Se utiliza para realizar cualquier inicialización necesaria del componente, como suscribirse a un servicio o recuperar datos iniciales.
+  El FormBuilder es una clase de Angular que nos permite agrupar nuestro formulario y aplicar validaciones al mismo
 
 8. Enumere cuales son los pasos para actualizar de la versión 13 a la actual
 
